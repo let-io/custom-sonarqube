@@ -1,0 +1,17 @@
+{
+    "id": 3,
+    "name": "L-QG",
+    "conditions": [
+      { "id": 2, "metric": "new_duplicated_lines_density", "op": "GT", "error": "3" },
+      { "id": 3, "metric": "new_reliability_rating", "op": "GT", "error": "1" },
+      { "id": 4, "metric": "new_maintainability_rating", "op": "GT", "error": "1" },
+      { "id": 5, "metric": "new_coverage", "op": "LT", "error": "85" },
+      { "id": 6, "metric": "coverage", "op": "LT", "error": "43" },
+      { "id": 7, "metric": "duplicated_lines_density", "op": "GT", "error": "27" },
+      { "id": 8, "metric": "sqale_rating", "op": "GT", "error": "2" },
+      { "id": 9, "metric": "reliability_rating", "op": "GT", "error": "2" },
+      { "id": 10, "metric": "security_rating", "op": "GT", "error": "2" },
+      { "id": 11, "metric": "new_security_rating", "op": "GT", "error": "1" }
+    ]
+  }
+  

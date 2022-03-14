@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "name": "S-QG",
+    "conditions": [
+      { "id": 2, "metric": "new_duplicated_lines_density", "op": "GT", "error": "8" },
+      { "id": 3, "metric": "new_reliability_rating", "op": "GT", "error": "1" },
+      { "id": 4, "metric": "new_maintainability_rating", "op": "GT", "error": "1" }
+    ]
+  }
+  
